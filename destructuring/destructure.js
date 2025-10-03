@@ -6,6 +6,6 @@ console.log('red:', red, 'green:', green, 'blue:', blue);
 
 // Object destructuring
 const user = { id: 1, name: 'Ada', role: 'Engineer' };
-const { name: userName, role } = user; // get properties by key
+const { name: userName, role } = user; 
 console.log('userName:', userName, 'role:', role);
 

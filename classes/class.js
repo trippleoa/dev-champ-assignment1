@@ -4,7 +4,7 @@
 class Person {
 // constructor runs when we create (instantiate) a new Person
 constructor(name, age) {
-this.name = name; // store name on the object
-this.age = age; // store age on the object
+this.name = name; 
+this.age = age; 
 }
 }

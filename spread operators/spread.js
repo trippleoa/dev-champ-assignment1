@@ -4,7 +4,7 @@ const b = [3, 4];
 const combined = [...a, ...b]; 
 console.log('combined:', combined); // [1,2,3,4]
 
-// Spread with objects (shallow copy)
+// Spread with objects 
 const base = { x: 1, y: 2 };
 const extended = { ...base, z: 3 };
 console.log('extended:', extended);

@@ -5,9 +5,9 @@ var oldVar = 'i am var';
 let newLet = 'i am let';
 const newConst = 'i am const';
 }
-console.log('oldVar (var is function-scoped):', oldVar); // accessible here
+console.log('oldVar (var is function-scoped):', oldVar); 
 // console.log(newLet); // would throw ReferenceError
-// console.log(newConst); // would throw ReferenceError
+
 
 
 // Use `const` for values that shouldn't change, `let` for mutable values
